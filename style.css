@@ -1,0 +1,124 @@
+#head{
+    text-shadow: 2px 3px 2px grey;
+}
+body{
+    background-color: rgb(55, 124, 34);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+form{
+    background-color: white;
+    max-width: 750px;
+    padding: 30px;
+    margin: 50px auto;
+}
+#label-name{
+    display: block;
+    margin-bottom: 10px;
+}
+#name{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#label-email{
+    display: block;
+    margin-bottom: 10px;
+}
+#email{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#label-age{
+    display: block;
+    margin-bottom: 10px;
+}
+#age{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#label-role{
+    display: block;
+    margin-bottom: 10px;
+}
+#role{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.option-font{
+    font-size: 15px;
+}
+#label-heading{
+    display: block;
+    margin-bottom: 10px;
+}
+.label-radio{
+    display: block;
+    margin-bottom: 10px;
+}
+#label-techs{
+    display: block;
+    margin-bottom: 10px;
+}
+.label-checkbox{
+    display: block;
+    margin-bottom: 10px;
+}
+#label-comment{
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 95%;
+    height: 70px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    color: white;
+    font-size: 19px;
+    box-shadow: 2px 3px 2px gray;
+}
+button:hover{
+    background-color: rgb(55, 124, 34);
+    transition: 0.6s;
+    font-weight: bold;
+    box-shadow: 2px 3px 2px rgb(3, 3, 3);
+}
+
+

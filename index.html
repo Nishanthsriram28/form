@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 id="head">Study Station Survery Form</h1>
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter your age">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">Which Positoin Describes You ?</label>
+            <select name="" id="role">
+                <option class="option-font" value="Student">Student</option>
+                <option class="option-font" value="Working Professional">Working Professional</option>
+                <option class="option-font" value="intern">Intern</option>
+                <option class="option-font" value="Other">Other</option>
+            </select>
+        </div>
+
+
+        <div class="form-control">
+            <label id="label-heading"> 
+                Would you Recommend This Platform to your friend ?
+            </label>
+
+            <label for="recommend-1" class="label-radio">
+                <input type="radio" name="recommend" id="recommend-1">YES
+            </label>
+            <label for="recommend-2"  class="label-radio">
+                <input type="radio" name="recommend" id="recommend-2">NO
+            </label>
+            <label for="recommend-3"  class="label-radio">
+                <input type="radio" name="recommend" id="recommend-3">Maybe
+            </label><br>
+        </div>
+
+
+        <div class="form-control">
+            <label id="label-techs">
+                Which Languages are you familiar with.
+            </label>
+            <label for="input-1" class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-1" >C
+            </label>
+            <label for="input-2"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-2">C++
+            </label>
+            <label for="input-3"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-3">Java
+            </label>
+            <label for="input-4"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-4">JavaScript
+            </label>
+            <label for="input-5"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-5">MongoDB
+            </label>
+            <label for="input-6"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-6">ReactJS
+            </label>
+            <label for="input-7"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-7">NodeJS
+            </label>
+            <label for="input-8"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-8">SQL
+            </label>
+            <label for="input-9"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-9">NOSQL
+            </label>
+            <label for="input-10"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-10">Github
+            </label>
+            <label for="input-11"  class="label-checkbox">
+                <input type="checkbox" name="languages" id="input-11">Git
+            </label><br>
+
+        </div>
+<div class="form-control">
+    <label for="comment" id="label-comment">
+        Any Comments or Suggestions ? 
+    </label>
+   <textarea name="comment" id="comment" placeholder="Enter your Thoughts" cols="30" rows="4"></textarea>
+</div><br>
+
+<div class="btn">
+    <button type="submit" value="submit">Submit</button>
+</div>
+        
+</div>
+
+    </form>
+</body>
+
+</html>
